@@ -1,0 +1,83 @@
+@import 'layout/_header.scss';
+@import 'layout/_nav.scss';
+@import 'layout/_subscribe.scss';
+@import 'base/_reset.scss';
+@import 'modules/_buttons.scss';
+@import 'layout/_footer.scss';
+
+body{
+   background-color: #ffad33; 
+}
+#srv{
+    width:10vw;
+    text-align: center;
+    margin-left: 13vw;
+    margin-top: 3vh;
+    color:#737373;
+    text-shadow: 1px 1px 1px #6b6b47;
+}
+#form{
+    background: linear-gradient(90deg,rgb(153, 153, 102),rgb(245, 245, 240));
+    float: right;
+    margin-right: 2vw;
+    margin-bottom: 4vh;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    color: #cc7a00;
+    text-shadow: 1px 1px 1px #3d3d29;
+    letter-spacing: 0.1em;
+    border-radius: 5px;
+    
+    box-shadow: -7px -7px 7px #ffd633;
+}
+.form-group{
+  margin-top: 4vh; 
+ font-size: 1.2em;
+ padding: 12px;    
+
+}
+.form-group input{
+  height: 4vh;  
+}
+#form h3{
+    text-align: center;
+    margin-top: 1vh;
+    font-size: 2em;
+}
+legend{
+    text-align: center;
+}
+#dugme{
+    width:10vw;
+    height: 4vw;
+    margin-left: 10vw;
+    margin-bottom: 2vh;
+    margin-top: 5vh;
+    font-family: 'Francois One', sans-serif;
+    font-size: 1.3em;
+    font-weight: bold;
+    border-radius: 20px;
+    border: 2px solid #bfbfbf;
+    background: #262626; 
+    color: white;
+    text-shadow: 1px 1px 1px #bfbfbf;
+    
+}
+#dugme:hover{
+    cursor: pointer;
+}
+.boxes{
+    font-size: 1.3em;
+    float: left;
+    margin-left: 2vw;
+    margin-top: 4vw;
+    padding: 10px;
+    background-color: #e65c00;
+    box-shadow: -7px -7px 7px #ff8533;
+    color: #4d4d33;
+    text-shadow: 1px 1px 1px #2e2e1f;
+}
+.clearfix{
+    clear: both;
+}
+

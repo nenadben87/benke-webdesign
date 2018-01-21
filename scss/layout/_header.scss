@@ -1,0 +1,13 @@
+.wrapper{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 20vh;
+    background: linear-gradient(180deg,rgb(230, 138, 0),rgb(255, 235, 153)); 
+}
+#logo{
+    font-family:  'Alegreya', serif;
+    color: #737373;
+    font-size: 2.2rem;
+    margin-left: 9vw;
+    text-shadow: 8px 12px 13px #6a6a48;
+}

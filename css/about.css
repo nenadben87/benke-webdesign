@@ -1,0 +1,170 @@
+/* line 1, C:/Users/prodigy/Downloads/_skidanje/WebSite/scss/layout/_header.scss */
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 20vh;
+  background: linear-gradient(180deg, #e68a00, #ffeb99);
+}
+
+/* line 7, C:/Users/prodigy/Downloads/_skidanje/WebSite/scss/layout/_header.scss */
+#logo {
+  font-family: 'Alegreya', serif;
+  color: #737373;
+  font-size: 2.2rem;
+  margin-left: 9vw;
+  text-shadow: 8px 12px 13px #6a6a48;
+}
+
+/* line 1, C:/Users/prodigy/Downloads/_skidanje/WebSite/scss/layout/_nav.scss */
+#navigation {
+  width: 100%;
+  background-color: #ffeb99;
+}
+
+/* line 5, C:/Users/prodigy/Downloads/_skidanje/WebSite/scss/layout/_nav.scss */
+nav ul li {
+  display: inline;
+  font-size: 2.4em;
+  margin-left: 11vw;
+}
+
+/* line 10, C:/Users/prodigy/Downloads/_skidanje/WebSite/scss/layout/_nav.scss */
+#navigation a:link {
+  text-decoration: none;
+  color: #4d4d4d;
+  font-family: 'Bree Serif', serif;
+  text-shadow: 3px 3px 3px #999966;
+}
+
+/* line 17, C:/Users/prodigy/Downloads/_skidanje/WebSite/scss/layout/_nav.scss */
+#navigation a:hover {
+  text-shadow: -3px -3px 4px #999966;
+}
+
+/* line 20, C:/Users/prodigy/Downloads/_skidanje/WebSite/scss/layout/_nav.scss */
+#navigation a:visited {
+  color: #4d4d4d;
+  text-decoration: none;
+}
+
+/* line 1, C:/Users/prodigy/Downloads/_skidanje/WebSite/scss/base/_reset.scss */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 2, C:/Users/prodigy/Downloads/_skidanje/WebSite/scss/modules/_buttons.scss */
+#btn {
+  width: 14vw;
+  height: 9vh;
+  background: #262626;
+  color: white;
+  margin: auto;
+  text-align: center;
+  padding: 1.5vh;
+  box-sizing: border-box;
+  margin-top: 3.1vh;
+  border: 2px solid #bfbfbf;
+  border-radius: 5px;
+  text-shadow: 1px 1px 1px #bfbfbf;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+/* line 1, C:/Users/prodigy/Downloads/_skidanje/WebSite/scss/layout/_footer.scss */
+#footer {
+  width: 85%;
+  background-color: #e65c00;
+  margin: auto;
+  height: 10vh;
+  text-align: center;
+  padding: 4vh;
+  box-sizing: border-box;
+  font-size: 1.2em;
+  color: #5c5c3d;
+  font-weight: bold;
+  margin-top: 4vh;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  box-shadow: inset 4px 4px 4px #ffad33;
+}
+
+/* line 7, C:/Users/prodigy/Downloads/_skidanje/WebSite/scss/about.scss */
+body {
+  background-color: #ffad33;
+}
+
+/* line 10, C:/Users/prodigy/Downloads/_skidanje/WebSite/scss/about.scss */
+#subscribe {
+  width: 100%;
+  height: 16vh;
+  background: linear-gradient(280deg, #e68a00, #ffeb99);
+  color: aqua;
+  font-size: 2.2em;
+  box-shadow: -12px -12px 8px #ffe066;
+}
+
+/* line 18, C:/Users/prodigy/Downloads/_skidanje/WebSite/scss/about.scss */
+#subscribe form {
+  float: right;
+  margin-right: 19vw;
+  margin-top: 4vh;
+}
+
+/* line 24, C:/Users/prodigy/Downloads/_skidanje/WebSite/scss/about.scss */
+#subscribe form input[type="email"] {
+  height: 3.6vh;
+  margin-right: 1.8vw;
+}
+
+/* line 28, C:/Users/prodigy/Downloads/_skidanje/WebSite/scss/about.scss */
+#subscribe form label {
+  margin-right: 3.6vw;
+  margin-top: 4vh;
+  color: #737373;
+  text-shadow: 2px 2px 2px #6b6b47;
+}
+
+/* line 34, C:/Users/prodigy/Downloads/_skidanje/WebSite/scss/about.scss */
+#showcase {
+  width: 100%;
+  font-size: 1.2em;
+  color: #5c5c3d;
+  text-shadow: 1px 1px 1px #55552b;
+}
+
+/* line 42, C:/Users/prodigy/Downloads/_skidanje/WebSite/scss/about.scss */
+#cont2 {
+  width: 21%;
+  height: 34vh;
+  float: right;
+  margin-right: 80px;
+  margin-top: 6vh;
+  background-color: #ff751a;
+  clip-path: polygon(0 1%, 100% 0, 100% 91%, 0% 100%);
+  padding-left: 8px;
+  border: 6px solid #ffb84d;
+}
+
+/* line 53, C:/Users/prodigy/Downloads/_skidanje/WebSite/scss/about.scss */
+#cont1 {
+  width: 65%;
+  float: left;
+  margin-top: 4vh;
+  margin-left: 4vw;
+}
+
+/* line 59, C:/Users/prodigy/Downloads/_skidanje/WebSite/scss/about.scss */
+#cont3 {
+  width: 65%;
+  float: left;
+  margin-top: 4vh;
+  margin-left: 4vw;
+}
+
+/* line 66, C:/Users/prodigy/Downloads/_skidanje/WebSite/scss/about.scss */
+.clearfix {
+  clear: both;
+}
+
+/*# sourceMappingURL=../css/about.map */

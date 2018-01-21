@@ -1,0 +1,23 @@
+#navigation{
+    width: 100%;
+    background-color: rgb(255, 235, 153); 
+}
+ nav ul li {
+    display: inline;
+    font-size: 2.4em;
+    margin-left: 11vw;
+}
+#navigation a:link {
+    text-decoration: none;
+    color: #4d4d4d;
+    font-family: 'Bree Serif', serif;
+    text-shadow: 3px 3px 3px #999966;
+    
+}
+#navigation a:hover{
+    text-shadow: -3px -3px 4px #999966;
+}
+#navigation a:visited{
+   color: #4d4d4d;
+   text-decoration: none;
+}

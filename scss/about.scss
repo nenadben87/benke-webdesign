@@ -1,0 +1,69 @@
+@import 'layout/_header.scss';
+@import 'layout/_nav.scss';
+@import 'base/_reset.scss';
+@import 'modules/_buttons.scss';
+@import 'layout/_footer.scss';
+
+body{
+   background-color: #ffad33; 
+}
+#subscribe{
+    width: 100%;
+    height: 16vh;
+    background: linear-gradient(280deg,rgb(230, 138, 0),rgb(255, 235, 153));
+    color:aqua;
+    font-size: 2.2em;
+    box-shadow: -12px -12px 8px #ffe066;
+}
+#subscribe form{
+    float: right;
+    margin-right: 19vw;
+    margin-top: 4vh;
+    
+}
+#subscribe form input[type="email"]{
+    height: 3.6vh;
+    margin-right: 1.8vw;
+}
+#subscribe form label{
+    margin-right: 3.6vw;
+    margin-top: 4vh;
+    color:#737373;
+    text-shadow: 2px 2px 2px #6b6b47;
+}
+#showcase{
+    width: 100%;
+    font-size: 1.2em;
+    color: #5c5c3d;
+    text-shadow: 1px 1px 1px #55552b;
+    
+    
+}
+#cont2{
+    width:21%;
+    height: 34vh;
+    float: right;
+    margin-right: 80px;
+    margin-top: 6vh;
+    background-color: #ff751a;
+    clip-path: polygon(0 1%, 100% 0, 100% 91%, 0% 100%);
+    padding-left: 8px;
+    border: 6px solid #ffb84d;
+}
+#cont1{
+    width: 65%;
+    float: left;
+    margin-top: 4vh;
+    margin-left: 4vw;
+}
+#cont3{
+    width: 65%;
+    float: left;
+    margin-top: 4vh;
+    margin-left: 4vw;
+    
+}
+.clearfix{
+    clear:both;
+}
+

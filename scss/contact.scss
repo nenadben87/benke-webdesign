@@ -1,0 +1,38 @@
+@import 'layout/_header.scss';
+@import 'layout/_nav.scss';
+@import 'layout/_subscribe.scss';
+@import 'base/_reset.scss';
+@import 'modules/_buttons.scss';
+@import 'layout/_footer.scss';
+
+body{
+   background-color: #ffad33; 
+}
+#box1{
+    float: left;
+    width: 30%;
+    text-align: center;
+    color: #5c5c3d;
+    text-shadow: 1px 1px 1px #55552b;
+    margin-left: 8vw;
+    margin-top: 4vh;
+    font-size: 1.2em;
+    padding: 4vh;
+    line-height: 7vh;
+    background-color: #ff751a;
+    border: 6px solid #ffb84d;
+}
+#box2{
+    float: right;
+    width: 30%;
+    text-align: center;
+    margin-right: 8vw;
+    margin-top: 4vh;
+    color: #5c5c3d;
+    text-shadow: 1px 1px 1px #55552b;
+    font-size: 1.2em;
+    line-height: 9vh;
+}
+.clearfix{
+    clear: both;
+}
