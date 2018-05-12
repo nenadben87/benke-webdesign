@@ -204,6 +204,14 @@ body {
     
 }
 
+/*////////////////////////////////////////////////*/
+
+@media screen and (min-width: 1280px){
+    .dropbtn{
+        display: none;
+    }
+}
+
 /*////////////////////////////////////////////*/
 
 @media screen and (min-width: 1024px) and (max-width: 1280px){
