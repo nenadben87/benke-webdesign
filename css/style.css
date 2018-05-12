@@ -89,6 +89,55 @@
     animation-name: headingh2;
     animation-duration: 3s;
 }
+/*//////////////////////////////////////////*/
+
+.dropbtn {
+    background-color: #ffeb99;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {background-color: #ddd}
+
+.show {display:block;}
+
+#dropmenu div{
+    width: 35px;
+    height: 5px;
+    background-color: #595959;
+    margin: 6px 0;
+    border-radius: 3px;
+    
+}
+
+
+
+/*///////////////////////////////////////////*/
+
 @keyframes headingh1{
     0%{
         transform: translateY(-100px);
@@ -111,5 +160,193 @@
     }
     100%{
         opacity: 1;
+    }
+}
+
+
+/*///////////////////////////////////////*/
+
+
+@media screen and (min-width: 1280px) and (max-width: 1536px){
+    
+    .dropbtn{
+        display: none;
+    }
+}
+
+/*////////////////////////////////////*/
+
+
+@media screen and (min-width: 1024px) and (max-width: 1280px){
+    
+    #btn{
+        font-size: 0.9em;
+        width: 18vw;
+    }
+    
+    .dropbtn{
+        display: none;
+    }
+    
+}
+
+
+/*//////////////////////////////////////*/
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    
+    #btn{
+        font-size: 0.9em;
+        width: 21vw;
+    }
+    
+    nav ul li{
+        font-size: 2.2em;
+        margin-left: 4vw;
+        padding-left: 4vw;
+    }
+    
+    #showcase{
+        font-size: 1.4rem;
+    }
+    
+    .dropbtn{
+        display: none;
+    }
+}
+
+
+/*///////////////////////////////////*/
+
+
+@media screen and (min-width: 720px) and (max-width: 768px){
+    
+    #btn{
+        font-size: 1em;
+        width: 23vw;
+    }
+    
+    nav ul li{
+        font-size: 2.2em;
+        margin-left: 4vw;
+        padding-left: 3vw;
+    }
+    
+    #showcase{
+        font-size: 1.3rem;
+    }
+    
+    .dropbtn{
+        display: none;
+    }
+}
+
+
+/*///////////////////////////////////////*/
+
+
+@media screen and (min-width: 407px) and (max-width: 720px){
+    
+     #btn{
+        font-size: 1.1em;
+        width: 36vw;
+    }
+    
+    nav ul li{
+        font-size: 1.4em;
+        margin-left: 2vw;
+        padding-left: 2vw;
+    }
+    
+    #showcase{
+        font-size: 1rem;
+    }
+    
+    #logo{
+         font-size: 1.4rem;
+         margin-left: 5vw;
+    }
+    
+    .dropbtn{
+        display: none;
+    }
+}
+
+
+/*///////////////////////////////////////*/
+
+
+@media screen and (min-width: 375px) and (max-width: 407px){
+    
+    
+     #btn{
+        font-size: 1.1em;
+        width: 36vw;
+    }
+    
+    nav ul li{
+        display: none;
+    }
+    
+    #showcase{
+        font-size: 1rem;
+    }
+    
+    #logo{
+         font-size: 1.4rem;
+         margin-left: 5vw;
+    }
+    
+}
+
+
+/*///////////////////////////////////////*/
+
+
+@media screen and (min-width: 360px) and (max-width: 375px){
+    
+     #btn{
+        font-size: 1.1em;
+        width: 38vw;
+    }
+    
+    nav ul li{
+        display: none;
+    }
+    
+    #showcase{
+        font-size: 1rem;
+    }
+    
+    #logo{
+         font-size: 1.4rem;
+         margin-left: 5vw;
+    }
+}
+
+
+/*///////////////////////////////////////*/
+
+
+@media screen and (min-width: 320px) and (max-width: 360px){
+    
+    #btn{
+        font-size: 1.1em;
+        width: 42vw;
+    }
+    
+    nav ul li{
+        display: none;
+    }
+    
+    #showcase{
+        font-size: 1rem;
+    }
+    
+    #logo{
+         font-size: 1.2rem;
+         margin-left: 5vw;
+         margin-top: 7vw;
     }
 }

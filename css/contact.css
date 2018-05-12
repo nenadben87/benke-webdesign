@@ -160,3 +160,260 @@ body {
 }
 
 /*# sourceMappingURL=../css/contact.map */
+
+.dropbtn {
+    background-color: #ffeb99;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {background-color: #ddd}
+
+.show {display:block;}
+
+#dropmenu div{
+    width: 35px;
+    height: 5px;
+    background-color: #595959;
+    margin: 6px 0;
+    border-radius: 3px;
+    
+}
+
+/*////////////////////////////////////////////*/
+
+@media screen and (min-width: 1024px) and (max-width: 1280px){
+    .dropbtn{
+        display: none;
+    }
+    #btn{
+        font-size: 0.7em;
+    }
+}
+
+/*////////////////////////////////////////*/
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    .dropbtn{
+        display: none;
+    }
+    nav ul li{
+        font-size: 2.2em;
+        margin-left: 4vw;
+        padding-left: 4vw;
+    }
+    #subscribe form label{
+        margin-left: 20px;
+    }
+    #subscribe form input[type="email"]{
+        margin-left: 20px;
+    }
+    #btn{
+        width: 16vw;
+        font-size: 0.6em;
+    }
+    #box2{
+        margin-right: 11vw;
+    }
+    #box1{
+        width: 40%;
+        margin-left: 4vw;
+    }
+}
+
+/*///////////////////////////////////////////*/
+
+@media screen and (min-width: 720px) and (max-width: 768px){
+    .dropbtn{
+        display: none;
+    }
+    nav ul li{
+        font-size: 2em;
+        margin-left: 4vw;
+        padding-left: 4vw;
+    }
+    #subscribe form label{
+        margin-left: 20px;
+    }
+    #subscribe form input[type="email"]{
+        margin-left: 20px;
+    }
+    #btn{
+        width: 16vw;
+        font-size: 0.6em;
+    }
+    #box2{
+        margin-right: 9vw;
+    }
+    #box1{
+        width: 40%;
+        margin-left: 4vw;
+    } 
+}
+
+/*/////////////////////////////////////////////*/
+
+@media screen and (min-width: 407px) and (max-width: 720px){
+   nav ul li{
+        display: none;
+    }
+    #subscribe form label{
+        margin-left: 10px;
+        font-size: 0.7em;
+    }
+    #subscribe form input[type="email"]{
+        margin-left: 20px;
+    }
+    #btn{
+        width: 28vw;
+        font-size: 0.6em;
+    }
+    #box2{
+        margin-right: 9vw;
+        width: 80%;
+        float: left;
+        margin-left: 20px;
+    }
+    #box1{
+        width: 40%;
+        margin-left: 4vw;
+        width: 80%;
+        float: left;
+    }
+    #logo{
+        font-size: 1.4rem;
+    }
+}
+
+/*//////////////////////////////////*/
+
+@media screen and (min-width: 375px) and (max-width: 407px){
+   nav ul li{
+        display: none;
+    }
+    #subscribe form label{
+        margin-left: 10px;
+        font-size: 0.6em;
+    }
+    #subscribe form input[type="email"]{
+        margin-left: 20px;
+    }
+    #btn{
+        width: 22vw;
+        font-size: 0.4em;
+        height: 40px;
+        padding-right: 12px;
+    }
+    #box2{
+        margin-right: 9vw;
+        width: 80%;
+        float: left;
+        margin-left: 20px;
+    }
+    #box1{
+        width: 40%;
+        margin-left: 4vw;
+        width: 80%;
+        float: left;
+    }
+    #logo{
+        font-size: 1.2rem;
+    }
+}
+
+/*//////////////////////////////////////////*/
+
+@media screen and (min-width: 360px) and (max-width: 375px){
+   nav ul li{
+        display: none;
+    }
+    #subscribe form label{
+        margin-left: 10px;
+        font-size: 0.5em;
+    }
+    #subscribe form input[type="email"]{
+        margin-left: 20px;
+    }
+    #btn{
+        width: 25vw;
+        font-size: 0.4em;
+        height: 40px;
+        padding-right: 12px;
+        margin-left: 20px;
+    }
+    #box2{
+        margin-right: 9vw;
+        width: 80%;
+        float: left;
+        margin-left: 20px;
+    }
+    #box1{
+        width: 40%;
+        margin-left: 4vw;
+        width: 80%;
+        float: left;
+    }
+    #logo{
+        font-size: 1.2rem;
+    }
+}
+/*///////////////////////////////////////////////*/
+
+@media screen and (min-width: 320px) and (max-width: 360px){
+   nav ul li{
+        display: none;
+    }
+    #subscribe form label{
+        margin-left: 10px;
+        font-size: 0.5em;
+    }
+    #subscribe form input[type="email"]{
+        margin-left: 20px;
+    }
+    #btn{
+        width: 25vw;
+        font-size: 0.4em;
+        height: 40px;
+        padding-right: 12px;
+        margin-left: 20px;
+    }
+    #box2{
+        margin-right: 9vw;
+        width: 80%;
+        float: left;
+        margin-left: 20px;
+    }
+    #box1{
+        width: 40%;
+        margin-left: 4vw;
+        width: 80%;
+        float: left;
+    }
+    #logo{
+        font-size: 1.2rem;
+    }
+}

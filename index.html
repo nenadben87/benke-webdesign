@@ -18,6 +18,19 @@
         <div id="navigation">
            
         <nav>
+            <div class="dropdown">
+<button onclick="myFunction()" class="dropbtn" id="dropmenu">
+                <div></div>
+                <div></div>
+                <div></div>
+                </button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="#">Home</a>
+    <a href="about.html">About Us</a>
+     <a href="services.html">Services</a> 
+    <a href="contact.html">Contact</a>
+  </div>
+</div>
         <ul>
             <li><a href="#">Home</a></li>
             <li><a href="about.html">About Us</a></li>
@@ -40,6 +53,24 @@
       
         </div><!--wrapper2-->
      
-        
+      <script>
+        function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+          
+          window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+        </script>  
     </body>
 </html>
